@@ -1,0 +1,8 @@
+nome=input('Digite o nome do produto:')
+valor=float(input('Digite o valor do produto:'))
+ICMS=int(input('Digite o ICMS:'))
+DICMS=valor*ICMS/100
+PIS=valor*0.065
+COFINS=valor*0.03
+total=DICMS+PIS+COFINS
+print('Nome do produto:',nome,'\nValor do produto:',valor,'\nICMS',DICMS,'\nPIS:',PIS,'\nCOFINS:',COFINS,'\nTotal de impostos:',total)
