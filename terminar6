@@ -1,0 +1,7 @@
+num1=int(input('Digite o primeiro número:'))
+maior=0
+contador=0
+while contador<=4:
+    if num1>maior:
+     maior=num1
+print(num1)
