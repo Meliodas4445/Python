@@ -1,0 +1,9 @@
+nome=input('Digite o nome do funcionário:')
+clas=int(input('Digite a classificação do funcionário:'))
+
+if clas>=8 or clas<=10:
+    print('Nome:',nome,'\nNota:A')
+elif clas>=5 or clas<=7:
+    print('Nome:',nome,'\nNota:B')
+elif clas<6:
+    print('Nome:',nome,'\nNota:C')
