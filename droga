@@ -1,0 +1,28 @@
+nome=input('Digite seu nome:')
+idade=int(input('Digite sua idade:'))
+q1=int(input('Acho difícil me acalmar? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q2=int(input('Com que frequência você se sente nervoso(a), ansioso(a) ou muito tenso(a)? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q3=int(input('Com que frequência você não se sente capaz de impedir ou de controlar as preocupações? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q4=int(input('Com que frequência você se preocupa muito com diversas coisas? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q5=int(input('Com que frequência você você tem dificuldade para relaxar? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q6=int(input('Com que frequência você fica tão agitado(a) que se torna difícil permanecer sentado(a)? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q7=int(input('Com que frequência você se fica facilmente aborrecido(a) ou irritado(a)? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q8=int(input('Com que frequência você sente medo como se algo horrível fosse acontecer? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q9=int(input('Não consegui vivenciar nenhum sentimento positivo 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q10=int(input('Sinto minha boca seca? 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q11=int(input('Senti falta de ar em alguns momentos, mesmo sem ter feito nenhum esforço físico 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+q12=int(input('Senti tremores (ex. nas mãos) 3-Sempre 2-Considerável 1-Poucas vezes 0-Nunca'))
+sempre='3'
+consideravel='2'
+poucas='1'
+nunca='0'
+soma=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10+q11+q12
+print('Nome:',nome,'\nIdade:',idade)
+if soma>=36:
+    print('Total de pontos:',soma,'\nNível: SOOOOCORROOOOO!')
+elif soma>=24 and soma<=35:
+    print('Total de pontos:',soma,'\nNível: Alto de Ansiedade')
+elif soma>=10 and soma<=23:
+    print('Total de pontos:',soma,'\nNível: Moderado de Ansiedade')
+elif soma<=9:
+    print('Total de pontos:',soma,'\nNível: Baixo de Ansiedade')
