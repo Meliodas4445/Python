@@ -1,0 +1,13 @@
+num=int(input('Digite o número:'))
+divisao=input('Digite se quer multiplicação ou divisão:')
+contador=1
+while contador<=10:
+     if divisao=='multiplicação':
+      result=num*contador
+      print(num," X ",contador," = ",result,"\n")
+      contador=contador+1
+     elif divisao=='divisão':
+      result=num/contador
+      print(num," : ",contador," = ",result,"\n")
+      contador=contador+1
+    
