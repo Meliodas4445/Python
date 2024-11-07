@@ -1,0 +1,8 @@
+nome=input('Digite seu nome:')
+resp=input('Deseja mudar de nome?')
+while resp=='sim':
+     novo=input('Digite seu novo nome:')
+     resp=input('Deseja mudar de nome?')
+     if resp=='não':
+      break
+      print('Fim do programa')
