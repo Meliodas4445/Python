@@ -1,0 +1,14 @@
+num1=int(input('Digite o número:'))
+num2=int(input('Digite o expoente:'))
+pot=num1**num2
+print('A potência é',pot)
+resp=input('Deseja digitar outros número novamente?')
+while resp=='sim':
+       num1=int(input('Digite o número:'))
+       num2=int(input('Digite o expoente:'))
+       pot=num1**num2
+       print('A potência é',pot)
+       resp=input('Deseja digitar outros número novamente?')
+       continue
+if resp=='nao':
+    print('Programa finalizado!')
