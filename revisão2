@@ -1,0 +1,5 @@
+nome=input('Digite o nome do país:') #Nome do país a ser digitado
+contador=1 #Variável contador é  igual a 1
+while contador<=5: #A pergunta vai se repetir até 6 vezes
+    contador=contador+1
+    nome=input("Digite o nome de outro país:")
