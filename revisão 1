@@ -1,0 +1,10 @@
+nome=input('Digite o nome do produto:')
+preco=float(input('Digite o preço do produto:')) #Variáveis= nome e preco
+print('Nome do produto:',nome,'\nPreço:',preco)
+if preco<2000: #Se o valor do produto for menor que 2000 não haverá desconto
+    print('Desconto: 0%')
+    print('Preço final:',preco)
+else: #Caso o contrário haverá um desconto de 20% sobre o preço
+    soma=preco-preco*0.20 #Cálculo do desconto
+    print('Desconto: 20%')
+    print('Preço final:',soma)
