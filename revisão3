@@ -1,0 +1,8 @@
+while True:
+    nome=input('Digite o nome:')
+    idade=int(input('Digite a idade:')) #Variáveis= nome e idade
+    print('Nome:',nome,'\nIdade:',idade) #Vai exibir os dados inseridos pelo usuário
+    resp=input('Deseja inserir um novo número? s/n') #O usuário decide se vai continuar(digitar "s")
+    if resp=='n':
+        break #Vai parar o programa caso o usuário digitar "n"
+print('Que pena que você não quer mais brincar.')
