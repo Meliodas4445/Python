@@ -1,0 +1,9 @@
+nome=input('Digite o usuário:')
+senha=input('Digite a senha:')#Variáveis são senha e nome
+
+while nome!='admin' and senha!='123': #Enquanto o nome digitado e a senha serem igual a,respectivamente,"admin" e "123", o programa vai repetir até o usuário acertar
+    print('Dados incorretos, digite novamente...')
+    nome=input('Digite o usuário:')
+    senha=input('Digite a senha:')
+    if nome=='admin' and senha=='123':
+        print(nome,'seja bem-vindo!') #Se o usuário acertar o nome e senha, ele entra no programa
