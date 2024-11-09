@@ -1,0 +1,8 @@
+nome=input('Digite o nome do aluno:')
+nota=float(input('Digite a nota do aluno:'))#Variáveis são nome e nota
+if nota<40: #Se a nota for menor que 40 o aluno é reprovado
+    print('Aluno reprovado!')
+elif nota>=60: #se a nota for maior ou igual a 60, ele é aprovado
+    print('Aluno reprovado!')
+elif nota==40 or nota<=59:#se for entre 40 e 59, o aluno está em recuperação
+    print('O aluno está de recuperação!')
