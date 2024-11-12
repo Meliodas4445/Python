@@ -1,0 +1,23 @@
+real=float(input('Digite um valor em real:'))
+resposta=input('Digite a moeda a ser convertida')
+if resposta=='dolar':
+    dolar=real*0.17
+    print('Valor da moeda selecionada(Dólar):',dolar)
+elif resposta=='euro':
+    euro=real*0.16
+    print('Valor da moeda selecionada(Euro):',euro)
+resp=input('Deseja converter novamente?')
+while resp=='sim':
+    real=float(input('Digite um valor em real:'))
+    resposta=input('Digite a moeda a ser convertida')
+    if resposta=='dolar':
+      dolar=real*0.17
+      print('Valor da moeda selecionada(Dólar):',dolar)
+      resp=input('Deseja converter novamente?')
+    elif resposta=='euro':
+      euro=real*0.16
+      print('Valor da moeda selecionada(Euro):',euro)
+      resp=input('Deseja converter novamente?')
+    if resp=='nao':
+        break
+        print('Programa finalizado...')
