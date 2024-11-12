@@ -1,0 +1,16 @@
+nome=input("Digite seu nome:")
+peso=float(input('Digite seu peso:'))
+altura=float(input('Digite sua altura:'))
+imc=peso/altura**2
+print('Nome:',nome,'\nPeso:',peso,'\nAltura:',altura,'\nIMC:',imc)
+resp=input('Deseja fazer novamente?')
+while resp=='sim':
+     nome=input("Digite seu nome:")
+     peso=float(input('Digite seu peso:'))
+     altura=float(input('Digite sua altura:'))
+     imc=peso/altura**2
+     print('Nome:',nome,'\nPeso:',peso,'\nAltura:',altura'\nIMC:',imc)
+     resp=input('Deseja fazer novamente?')
+     if resp=='nao':
+        break
+        print('Programa finalizado...')
