@@ -1,0 +1,7 @@
+nome1=input('Digite o nome do 1º aluno:')
+nota1=float(input('Digite a nota do 1º aluno:'))
+nome2=input('Digite o nome do 2º aluno:')
+nota2=float(input('Digite a nota do 2º aluno:'))
+nome3=input('Digite o nome do 3º aluno:')
+nota3=float(input('Digite a nota do 3º aluno:'))
+print('Aluno:',nome1,'Nota:',nota1,'\nAluno:',nome2,'Nota:',nota2,'\nAluno:',nome3,'Nota:',nota3)
