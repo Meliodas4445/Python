@@ -1,0 +1,12 @@
+nome1=input('Digite o nome do aluno:')
+nota1=float(input('Digite a nota do aluno:'))
+nota2=float(input('Digite a nota do aluno:'))
+nota3=float(input('Digite a nota do aluno:'))
+nota4=float(input('Digite a nota do aluno:'))
+nota5=nota1+nota2+nota3+nota4
+if nota5>=60:
+    print('Situação: Aluno aprovado!')
+elif nota5<40:
+    print('Situação: Aluno reprovado!')
+else:
+    print('Situação: Aluno está de recuperação!')
